@@ -22,6 +22,18 @@ header {
     border-bottom: 3px solid var(--bg-obscure-dark);
 }
 
+a {
+    background: linear-gradient(to left, #064fc0, #1871ec, #118eff, #1871ec, #064fc0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border-bottom: 1px dotted #118eff;
+}
+
+a:hover {
+    border-bottom: 1px dashed #118eff;
+}
+
 /** CLASSES */
 .transparent {
     background: rgba(255, 255, 255, 0.53);
@@ -31,6 +43,7 @@ header {
     -webkit-backdrop-filter: blur(10.8px);
     border: 1px solid rgb(220, 220, 220);
 }
+
 input.transparent::placeholder {
     opacity: .50;
 }
