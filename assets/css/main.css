@@ -31,3 +31,6 @@ header {
     -webkit-backdrop-filter: blur(10.8px);
     border: 1px solid rgb(220, 220, 220);
 }
+input.transparent::placeholder {
+    opacity: .50;
+}
