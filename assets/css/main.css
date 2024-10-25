@@ -10,7 +10,7 @@
 
 /** TAGS */
 body {
-    background-image: linear-gradient(135deg, #FFF6B7 10%, #F6416C 100%);
+    background-image: url('../img/pattern-autumn-512.png'), linear-gradient(90deg, #FFF6B7, #F6416C);
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -38,8 +38,7 @@ a:hover {
 .transparent {
     background: rgba(255, 255, 255, 0.53);
     border-radius: 16px;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-    backdrop-filter: blur(10.8px);
+    backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10.8px);
     border: 1px solid rgb(220, 220, 220);
 }
