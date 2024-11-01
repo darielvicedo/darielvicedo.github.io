@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
             // access place data object
             const place = data[placeId];
 
+            // change page title
+            document.title = place.placeName + " " + document.title;
+
             // iterate place properties
             Object.keys(place).forEach((key) => {
                 // fetch elements by class key
