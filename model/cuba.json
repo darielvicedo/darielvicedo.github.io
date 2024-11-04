@@ -2,13 +2,27 @@
     "ciudad-de-matanzas": {
         "placeName": "Ciudad de Matanzas",
         "placeDescription": "Matanzas, Cuba, es una cautivadora ciudad costera, a menudo aclamada como la \"Venecia de Cuba\" debido a sus pintorescos puentes y encantadores canales. Salpicada de arquitectura colonial, es un centro de la cultura afrocubana, que ofrece vibrantes escenas musicales y festivales tradicionales. Explore las cuevas de Bellamar, relájese en la impresionante playa de Varadero o adéntrese en la historia en el Museo Farmacéutico. Matanzas es una joya intacta, que ofrece una combinación única de belleza natural, cultura y tranquilidad.",
-        "placePhotos": [],
-        "placeVideos": []
+        "placePhotos": [
+            "https://1drv.ms/i/c/723dca80298e4061/IQRW8PhuJQN4TK7ItL3onQi8AYr1Qg4r4cndwEpfXc5f0r4?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQRcEEV2HdRrTJiHK8IxOwNeAe2cLdhkufx_EeY8BfKFORI?width=660"
+        ],
+        "placeVideos": [
+            "9vMYQZG2Xes",
+            "Df_ZXNmmeqk"
+        ]
     },
     "valle-de-yumuri": {
         "placeName": "Valle de Yumurí",
         "placeDescription": "El Valle de Yumuri, una joya en Matanzas, Cuba, ofrece una fascinante combinación de paisajes exuberantes, ríos atractivos y una rica biodiversidad. Este paraíso verde, rodeado de verdes colinas, cautiva a los visitantes con su belleza intacta, su encanto rústico y su ambiente tranquilo. El corazón del valle es el río Yumuri, una serena vía fluvial perfecta para paseos en barco. La vibrante flora y fauna del valle lo convierten en un paraíso para los amantes de la naturaleza. El Valle de Yumuri es un espléndido refugio del bullicio de la ciudad, que ofrece una auténtica experiencia campestre cubana.",
-        "placePhotos": [],
-        "placeVideos": []
+        "placePhotos": [
+            "https://1drv.ms/i/c/723dca80298e4061/IQQ3hKIRTh2pQrCqrf57R4BIAX8zBub8sMPPYDT9UycZOpI?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQQU2MGKfyDGTbl6J5OOTBfpASxxNmn1SmNoAqGQvNPp9T0?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQRO1n4kmI3ASKuKHdvuxqIoAfOmuqV7rzfX4LrAGrJd2uQ?width=660"
+        ],
+        "placeVideos": [
+            "VBU51EcKzic",
+            "nERDB-ZZeRA",
+            "Df_ZXNmmeqk"
+        ]
     }
 }

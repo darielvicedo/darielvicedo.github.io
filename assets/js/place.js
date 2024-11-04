@@ -38,6 +38,44 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     el.innerText = place[key];
                 });
             });
+
+            // media rows
+            const videoRow = document.getElementById("placeVideos");
+            const photoRow = document.getElementById("placePhotos");
+
+            // iterate videos
+            Object.values(place["placeVideos"]).forEach((ytId) => {
+                // create html elements
+                const col = document.createElement("div");
+                col.classList.add("col-12", "col-md-4");
+                videoRow.appendChild(col);
+
+                const ratio = document.createElement("div");
+                ratio.classList.add("ratio", "ratio-16x9");
+                col.appendChild(ratio);
+
+                const embed = document.createElement("iframe");
+                embed.setAttribute("src", "https://www.youtube.com/embed/" + ytId);
+                embed.setAttribute("frameborder", 0);
+                embed.setAttribute("title", "YouTube Video Player");
+                embed.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+                embed.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+                embed.setAttribute("allowfullscreen", "");
+                ratio.appendChild(embed);
+            });
+
+            // iterate photos
+            Object.values(place["placePhotos"]).forEach((url) => {
+                const col = document.createElement("div");
+                col.classList.add("col-12", "col-md-4");
+                photoRow.appendChild(col);
+
+                const img = document.createElement("img");
+                img.classList.add("img-fluid");
+                img.setAttribute("src", url);
+                img.setAttribute("alt", "A picture of " + place["placeName"]);
+                col.appendChild(img);
+            });
         })
         .catch((reason) => {
             console.error(reason);
