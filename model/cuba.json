@@ -4,13 +4,32 @@
         "placeDescription": "Matanzas, Cuba, es una cautivadora ciudad costera, a menudo aclamada como la \"Venecia de Cuba\" debido a sus pintorescos puentes y encantadores canales. Salpicada de arquitectura colonial, es un centro de la cultura afrocubana, que ofrece vibrantes escenas musicales y festivales tradicionales. Explore las cuevas de Bellamar, relájese en la impresionante playa de Varadero o adéntrese en la historia en el Museo Farmacéutico. Matanzas es una joya intacta, que ofrece una combinación única de belleza natural, cultura y tranquilidad.",
         "placePhotos": [
             "https://1drv.ms/i/c/723dca80298e4061/IQRW8PhuJQN4TK7ItL3onQi8AYr1Qg4r4cndwEpfXc5f0r4?width=660",
-            "https://1drv.ms/i/c/723dca80298e4061/IQRcEEV2HdRrTJiHK8IxOwNeAe2cLdhkufx_EeY8BfKFORI?width=660"
+            "https://1drv.ms/i/c/723dca80298e4061/IQRcEEV2HdRrTJiHK8IxOwNeAe2cLdhkufx_EeY8BfKFORI?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQTwoXRJB9x-Tp91NXP_zWo7ARJo5lhd6ntWFyFiVJYhmiw?width=660"
         ],
         "placeVideos": [
             "9vMYQZG2Xes",
             "Df_ZXNmmeqk"
         ],
         "related": [
+            "valle-de-yumuri",
+            "tres-ceibas-de-clavellinas"
+        ]
+    },
+    "tres-ceibas-de-clavellinas": {
+        "placeName": "Tres Ceibas de Clavellinas",
+        "placeDescription": "La reserva florística manejada Tres Ceibas de Clavellinas, ubicada en la cuenca hidrográfica del río Yumurí, es sin lugar a dudas un lugar fascinante. Con una vegetación peculiar, formada por especies endémicas de alto valor genético, algunas de ellas en peligro de extinción y otras que por su tendencia pudieran incorporarse a esa lista, lamentablemente muy pronto. Debido a su vegetación espinosa y y matorral xeromorfo costero, esta área se denomina en Cuba como 'cuabal'.",
+        "placePhotos": [
+            "https://1drv.ms/i/c/723dca80298e4061/IQQqLge-maXqTYeSXbr_uUr9AZlzDINCeb7iC-MmfRx86HU?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQRbuncKfPcxT7AlR4oCtqw_AUAWwukxaixNs4ixyAKGeXY?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQQUcojtq3plQ7ouV8RkNG0kATiFyeXDl98buZyo1fCDveA?width=660"
+        ],
+        "placeVideos": [
+            "nERDB-ZZeRA",
+            "Df_ZXNmmeqk"
+        ],
+        "related": [
+            "ciudad-de-matanzas",
             "valle-de-yumuri"
         ]
     },
@@ -28,7 +47,8 @@
             "Df_ZXNmmeqk"
         ],
         "related": [
-            "ciudad-de-matanzas"
+            "ciudad-de-matanzas",
+            "tres-ceibas-de-clavellinas"
         ]
     }
 }
