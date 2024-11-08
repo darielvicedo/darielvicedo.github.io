@@ -76,6 +76,26 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 img.setAttribute("alt", "A picture of " + place["placeName"]);
                 col.appendChild(img);
             });
+
+            // related places
+            Object.values(place["related"]).forEach((id) => {
+                // fetch ul
+                const ul = document.getElementById("placeRelated");
+
+                // create element
+                const li = document.createElement("li");
+                li.classList.add("me-3");
+
+                // create link
+                const url = window.location.protocol + "//" + window.location.host + window.location.pathname + "?placeId=" + id;
+                const a = document.createElement("a");
+                a.setAttribute("href", url);
+                a.innerText = data[id]["placeName"];
+
+                // append
+                li.appendChild(a);
+                ul.appendChild(li);
+            });
         })
         .catch((reason) => {
             console.error(reason);
