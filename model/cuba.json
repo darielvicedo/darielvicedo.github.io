@@ -50,5 +50,18 @@
             "ciudad-de-matanzas",
             "tres-ceibas-de-clavellinas"
         ]
+    },
+    "camaguey": {
+        "placeName": "Camagüey",
+        "placeDescription": "Camagüey, ciudad de Cuba declarada Patrimonio de la Humanidad por la UNESCO, es un laberinto de calles estrechas y sinuosas, rebosante de encanto colonial. Su influencia española es evidente en las iglesias barrocas, las casas de colores pastel y las grandes plazas. El trazado único de las calles de la ciudad, diseñado para confundir a los piratas, ahora sirve como un encantador laberinto para los visitantes. Con su floreciente escena artística, talleres de cerámica locales y el Ballet de Camagüey, es un tesoro cultural. Pruebe la cocina tradicional cubana en los paladares locales y no se pierda el símbolo de la ciudad, el tinajón, grandes jarras de cerámica roja esparcidas por toda la ciudad. Camagüey es un destino fascinante y poco conocido.",
+        "placePhotos": [
+            "https://1drv.ms/i/c/723dca80298e4061/IQQ0rCJ90MupT6ze2fSYWsT8ARiPS5xef5r7sDBCpTnV3lM?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQQ41h5da0y6Sq9RWL7yyHNnAaI0hI2FCfXk8b3UyHESQic?width=660",
+            "https://1drv.ms/i/c/723dca80298e4061/IQRTWMKrDiSiT49xX_ghqqBwAcrm-GZ2r8MCGvY2hahABHA?width=660"
+        ],
+        "placeVideos": [
+            "OBlcoLpece8"
+        ],
+        "related": []
     }
 }
